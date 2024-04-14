@@ -13,7 +13,7 @@ class Transaction {
 }
 
 main();
-
+// Last transaction should throw an error as its a closed transaction
 function main() {
   const transactions = [
     new Transaction("t1", "PAYMENT", "OPEN", "CREDIT_CARD", "23.99"),
